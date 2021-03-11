@@ -1,0 +1,289 @@
+* {
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: normal;
+    color:black;
+}
+
+.border {
+    border: 8px solid #000000;
+    box-sizing: border-box;
+}
+
+.rectangle {
+    background: #005671;
+}
+
+#top-rectangle{
+    position: absolute;
+    width: 1379px;
+    height: 61px;
+    left: 28px;
+    top: 17px; 
+}
+
+#intro-box {
+    position: absolute;
+    width: 760px;
+    height: 362px;
+    left: 28px;
+    top: 100px;
+    background: white;
+}
+
+#intro {
+    position: absolute;
+    width: 341px;
+    height: 275px;
+    left: 80px;
+    top: 100px;
+
+    font-size: 40px;
+    line-height: 61px;
+}
+
+#picture-of-me {
+    position: absolute;
+    width: 298px;
+    height: 298px;
+    left: 457px;
+    top: 132px;
+}
+
+#about-me-box {
+    position: absolute;
+    width: 594px;
+    height: 362px;
+    left: 813px;
+    top: 100px;
+}
+
+#about-me-title {
+    position: absolute;
+    width: 241px;
+    height: 61px;
+    left: 861px;
+    top: 100px;
+
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+}
+
+#about-me {
+    position: absolute;
+    width: 508px;
+    height: 197px;
+    left: 860px;
+    top: 170px;
+
+    font-size: 26px;
+    line-height: 40px;
+}
+
+#proj-experience-box {
+    position: absolute;
+    width: 371px;
+    height: 200px;
+    left: 28px;
+    top: 484px;
+}
+
+#proj-experience {
+    position: absolute;
+    width: 249px;
+    height: 148px;
+    left: 65px;
+    top: 460px;
+
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 74px;
+}
+
+#small {
+    position: absolute;
+    width: 371px;
+    height: 124px;
+    left: 28px;
+    top: 704px;
+}
+
+#proj1-box {
+    position: absolute;
+    width: 334px;
+    height: 344px;
+    left: 421px;
+    top: 484px;
+
+    background: #2D8FAD;
+}
+
+#proj1-title {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 60px;
+    position: absolute;
+    width: 128px;
+    height: 74px;
+    left: 453px;
+    top: 460px;
+}
+
+#proj1-description {
+    position: absolute;
+    width: 262px;
+    height: 202px;
+    left: 453px;
+    top: 595px;
+
+    font-size: 26px;
+    line-height: 32px;
+}
+
+#proj2-box {
+    position: absolute;
+    width: 361px;
+    height: 344px;
+    left: 738px;
+    top: 484px;
+
+    background: #5EAAC2;
+}
+
+#proj2-title {
+    position: absolute;
+    width: 138px;
+    height: 74px;
+    left: 781px;
+    top: 460px;
+
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 60px;
+}
+
+#proj2-description {
+    position: absolute;
+    width: 262px;
+    height: 202px;
+    left: 780px;
+    top: 595px; 
+
+    font-size: 26px;
+    line-height: 32px;
+}
+
+#proj3-box {
+    position: absolute;
+    width: 366px;
+    height: 344px;
+    left: 1042px;
+    top: 484px;
+
+    background: #78CAE4;    
+}
+
+#proj3-title {
+    position: absolute;
+    width: 137px;
+    height: 74px;
+    left: 1121px;
+    top: 460px;
+
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+#proj3-description {
+    position: absolute;
+    width: 262px;
+    height: 202px;
+    left: 1126px;
+    top: 645px;
+
+    font-size: 26px;
+    line-height: 32px;
+}
+
+#goals-box {
+    position: absolute;
+    width: 1007px;
+    height: 344px;
+    left: 28px;
+    top: 850px;
+}
+
+#goals-title {
+    position: absolute;
+    width: 278px;
+    height: 61px;
+    left: 66px;
+    top: 844px;
+
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+}
+
+#goals-description {
+    position: absolute;
+    width: 947px;
+    height: 197px;
+    left: 65px;
+    top: 962px; 
+
+    font-size: 26px;
+    line-height: 40px;
+}
+
+#contact-box {
+    position: absolute;
+    width: 349px;
+    height: 344px;
+    left: 1058px;
+    top: 850px;
+}
+
+#contact-title {
+    position: absolute;
+    width: 143px;
+    height: 61px;
+    left: 1115px;
+    top: 850px;
+
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+}
+
+#email {
+    position: absolute;
+    width: 125px;
+    height: 40px;
+    left: 1115px;
+    top: 930px; 
+
+    font-size: 24px;
+    line-height: 40px;
+}
+
+#ig {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 1115px;
+    top: 1020px; 
+
+    font-size: 24px;
+    line-height: 40px;
+}
+
+#bottom {
+    position: absolute;
+    width: 1379px;
+    height: 61px;
+    left: 28px;
+    top: 1216px;
+}
